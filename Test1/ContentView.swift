@@ -19,9 +19,9 @@ struct Item: Identifiable {
 // Основное представление
 struct ContentView: View {
     @State private var items: [Item] = [
-        Item(name: "Красный", required: true, tappedOnSelectAll: true),
+        Item(name: "Красный", required: true, tappedOnSelectAll: false),
         Item(name: "Синий", required: true, tappedOnSelectAll: true),
-        Item(name: "Зеленый", required: true, tappedOnSelectAll: true),
+        Item(name: "Зеленый", required: true, tappedOnSelectAll: false),
         Item(name: "Желтый", required: true, tappedOnSelectAll: true)
     ]
     
